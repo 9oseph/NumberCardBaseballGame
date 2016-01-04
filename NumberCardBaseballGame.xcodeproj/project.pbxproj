@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAB335B81C3A45690037CB78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB335B71C3A45690037CB78 /* AppDelegate.swift */; };
+		AAB335BA1C3A45690037CB78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB335B91C3A45690037CB78 /* ViewController.swift */; };
+		AAB335BD1C3A45690037CB78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB335BB1C3A45690037CB78 /* Main.storyboard */; };
+		AAB335C01C3A45690037CB78 /* NumberCardBaseballGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAB335BE1C3A45690037CB78 /* NumberCardBaseballGame.xcdatamodeld */; };
+		AAB335C21C3A45690037CB78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB335C11C3A45690037CB78 /* Assets.xcassets */; };
+		AAB335C51C3A45690037CB78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB335C31C3A45690037CB78 /* LaunchScreen.storyboard */; };
+		AAB335D01C3A45690037CB78 /* NumberCardBaseballGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB335CF1C3A45690037CB78 /* NumberCardBaseballGameTests.swift */; };
+		AAB335DB1C3A45690037CB78 /* NumberCardBaseballGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB335DA1C3A45690037CB78 /* NumberCardBaseballGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAB335CC1C3A45690037CB78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAB335AC1C3A45690037CB78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAB335B31C3A45690037CB78;
+			remoteInfo = NumberCardBaseballGame;
+		};
+		AAB335D71C3A45690037CB78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAB335AC1C3A45690037CB78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAB335B31C3A45690037CB78;
+			remoteInfo = NumberCardBaseballGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAB335B41C3A45690037CB78 /* NumberCardBaseballGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberCardBaseballGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB335B71C3A45690037CB78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAB335B91C3A45690037CB78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAB335BC1C3A45690037CB78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAB335BF1C3A45690037CB78 /* NumberCardBaseballGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NumberCardBaseballGame.xcdatamodel; sourceTree = "<group>"; };
+		AAB335C11C3A45690037CB78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAB335C41C3A45690037CB78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAB335C61C3A45690037CB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB335CB1C3A45690037CB78 /* NumberCardBaseballGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberCardBaseballGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB335CF1C3A45690037CB78 /* NumberCardBaseballGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCardBaseballGameTests.swift; sourceTree = "<group>"; };
+		AAB335D11C3A45690037CB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB335D61C3A45690037CB78 /* NumberCardBaseballGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberCardBaseballGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB335DA1C3A45690037CB78 /* NumberCardBaseballGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCardBaseballGameUITests.swift; sourceTree = "<group>"; };
+		AAB335DC1C3A45690037CB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAB335B11C3A45690037CB78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB335C81C3A45690037CB78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB335D31C3A45690037CB78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAB335AB1C3A45690037CB78 = {
+			isa = PBXGroup;
+			children = (
+				AAB335B61C3A45690037CB78 /* NumberCardBaseballGame */,
+				AAB335CE1C3A45690037CB78 /* NumberCardBaseballGameTests */,
+				AAB335D91C3A45690037CB78 /* NumberCardBaseballGameUITests */,
+				AAB335B51C3A45690037CB78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAB335B51C3A45690037CB78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAB335B41C3A45690037CB78 /* NumberCardBaseballGame.app */,
+				AAB335CB1C3A45690037CB78 /* NumberCardBaseballGameTests.xctest */,
+				AAB335D61C3A45690037CB78 /* NumberCardBaseballGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAB335B61C3A45690037CB78 /* NumberCardBaseballGame */ = {
+			isa = PBXGroup;
+			children = (
+				AAB335B71C3A45690037CB78 /* AppDelegate.swift */,
+				AAB335B91C3A45690037CB78 /* ViewController.swift */,
+				AAB335BB1C3A45690037CB78 /* Main.storyboard */,
+				AAB335C11C3A45690037CB78 /* Assets.xcassets */,
+				AAB335C31C3A45690037CB78 /* LaunchScreen.storyboard */,
+				AAB335C61C3A45690037CB78 /* Info.plist */,
+				AAB335BE1C3A45690037CB78 /* NumberCardBaseballGame.xcdatamodeld */,
+			);
+			path = NumberCardBaseballGame;
+			sourceTree = "<group>";
+		};
+		AAB335CE1C3A45690037CB78 /* NumberCardBaseballGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAB335CF1C3A45690037CB78 /* NumberCardBaseballGameTests.swift */,
+				AAB335D11C3A45690037CB78 /* Info.plist */,
+			);
+			path = NumberCardBaseballGameTests;
+			sourceTree = "<group>";
+		};
+		AAB335D91C3A45690037CB78 /* NumberCardBaseballGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAB335DA1C3A45690037CB78 /* NumberCardBaseballGameUITests.swift */,
+				AAB335DC1C3A45690037CB78 /* Info.plist */,
+			);
+			path = NumberCardBaseballGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAB335B31C3A45690037CB78 /* NumberCardBaseballGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB335DF1C3A45690037CB78 /* Build configuration list for PBXNativeTarget "NumberCardBaseballGame" */;
+			buildPhases = (
+				AAB335B01C3A45690037CB78 /* Sources */,
+				AAB335B11C3A45690037CB78 /* Frameworks */,
+				AAB335B21C3A45690037CB78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberCardBaseballGame;
+			productName = NumberCardBaseballGame;
+			productReference = AAB335B41C3A45690037CB78 /* NumberCardBaseballGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAB335CA1C3A45690037CB78 /* NumberCardBaseballGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB335E21C3A45690037CB78 /* Build configuration list for PBXNativeTarget "NumberCardBaseballGameTests" */;
+			buildPhases = (
+				AAB335C71C3A45690037CB78 /* Sources */,
+				AAB335C81C3A45690037CB78 /* Frameworks */,
+				AAB335C91C3A45690037CB78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAB335CD1C3A45690037CB78 /* PBXTargetDependency */,
+			);
+			name = NumberCardBaseballGameTests;
+			productName = NumberCardBaseballGameTests;
+			productReference = AAB335CB1C3A45690037CB78 /* NumberCardBaseballGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAB335D51C3A45690037CB78 /* NumberCardBaseballGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB335E51C3A45690037CB78 /* Build configuration list for PBXNativeTarget "NumberCardBaseballGameUITests" */;
+			buildPhases = (
+				AAB335D21C3A45690037CB78 /* Sources */,
+				AAB335D31C3A45690037CB78 /* Frameworks */,
+				AAB335D41C3A45690037CB78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAB335D81C3A45690037CB78 /* PBXTargetDependency */,
+			);
+			name = NumberCardBaseballGameUITests;
+			productName = NumberCardBaseballGameUITests;
+			productReference = AAB335D61C3A45690037CB78 /* NumberCardBaseballGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAB335AC1C3A45690037CB78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JosephKang;
+				TargetAttributes = {
+					AAB335B31C3A45690037CB78 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AAB335CA1C3A45690037CB78 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AAB335B31C3A45690037CB78;
+					};
+					AAB335D51C3A45690037CB78 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AAB335B31C3A45690037CB78;
+					};
+				};
+			};
+			buildConfigurationList = AAB335AF1C3A45690037CB78 /* Build configuration list for PBXProject "NumberCardBaseballGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAB335AB1C3A45690037CB78;
+			productRefGroup = AAB335B51C3A45690037CB78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAB335B31C3A45690037CB78 /* NumberCardBaseballGame */,
+				AAB335CA1C3A45690037CB78 /* NumberCardBaseballGameTests */,
+				AAB335D51C3A45690037CB78 /* NumberCardBaseballGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAB335B21C3A45690037CB78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB335C51C3A45690037CB78 /* LaunchScreen.storyboard in Resources */,
+				AAB335C21C3A45690037CB78 /* Assets.xcassets in Resources */,
+				AAB335BD1C3A45690037CB78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB335C91C3A45690037CB78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB335D41C3A45690037CB78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAB335B01C3A45690037CB78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB335C01C3A45690037CB78 /* NumberCardBaseballGame.xcdatamodeld in Sources */,
+				AAB335BA1C3A45690037CB78 /* ViewController.swift in Sources */,
+				AAB335B81C3A45690037CB78 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB335C71C3A45690037CB78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB335D01C3A45690037CB78 /* NumberCardBaseballGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB335D21C3A45690037CB78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB335DB1C3A45690037CB78 /* NumberCardBaseballGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAB335CD1C3A45690037CB78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAB335B31C3A45690037CB78 /* NumberCardBaseballGame */;
+			targetProxy = AAB335CC1C3A45690037CB78 /* PBXContainerItemProxy */;
+		};
+		AAB335D81C3A45690037CB78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAB335B31C3A45690037CB78 /* NumberCardBaseballGame */;
+			targetProxy = AAB335D71C3A45690037CB78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAB335BB1C3A45690037CB78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB335BC1C3A45690037CB78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAB335C31C3A45690037CB78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB335C41C3A45690037CB78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAB335DD1C3A45690037CB78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAB335DE1C3A45690037CB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAB335E01C3A45690037CB78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NumberCardBaseballGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.philos-sophia.NumberCardBaseballGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAB335E11C3A45690037CB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NumberCardBaseballGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.philos-sophia.NumberCardBaseballGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AAB335E31C3A45690037CB78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NumberCardBaseballGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.philos-sophia.NumberCardBaseballGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NumberCardBaseballGame.app/NumberCardBaseballGame";
+			};
+			name = Debug;
+		};
+		AAB335E41C3A45690037CB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NumberCardBaseballGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.philos-sophia.NumberCardBaseballGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NumberCardBaseballGame.app/NumberCardBaseballGame";
+			};
+			name = Release;
+		};
+		AAB335E61C3A45690037CB78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NumberCardBaseballGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.philos-sophia.NumberCardBaseballGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NumberCardBaseballGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AAB335E71C3A45690037CB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NumberCardBaseballGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.philos-sophia.NumberCardBaseballGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NumberCardBaseballGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAB335AF1C3A45690037CB78 /* Build configuration list for PBXProject "NumberCardBaseballGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB335DD1C3A45690037CB78 /* Debug */,
+				AAB335DE1C3A45690037CB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB335DF1C3A45690037CB78 /* Build configuration list for PBXNativeTarget "NumberCardBaseballGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB335E01C3A45690037CB78 /* Debug */,
+				AAB335E11C3A45690037CB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAB335E21C3A45690037CB78 /* Build configuration list for PBXNativeTarget "NumberCardBaseballGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB335E31C3A45690037CB78 /* Debug */,
+				AAB335E41C3A45690037CB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAB335E51C3A45690037CB78 /* Build configuration list for PBXNativeTarget "NumberCardBaseballGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB335E61C3A45690037CB78 /* Debug */,
+				AAB335E71C3A45690037CB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AAB335BE1C3A45690037CB78 /* NumberCardBaseballGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AAB335BF1C3A45690037CB78 /* NumberCardBaseballGame.xcdatamodel */,
+			);
+			currentVersion = AAB335BF1C3A45690037CB78 /* NumberCardBaseballGame.xcdatamodel */;
+			path = NumberCardBaseballGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AAB335AC1C3A45690037CB78 /* Project object */;
+}
